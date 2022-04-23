@@ -1,0 +1,74 @@
+.fundo{
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFE341;
+        color: white;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    .principal {
+        width: 92vmax;
+        width: 92vmin;
+        height: 83vmax;
+        height: 83vmin;
+        background-color: #683400;
+        color: white;
+        margin-left: 2vmax;
+    }
+    img{
+    	width: 3.5vmax;
+    	height: 9vmin;
+    }
+    .div2 {
+        background-color: #FFF4B5;
+        width: 85vmax;
+        width: 85vmin;
+        height: 75vmax;
+        height: 75vmin;
+        position: absolute;
+        margin-left: 1.5vmax;
+        margin-top: 2vmax;
+
+    }
+    .div3 {
+        width: 80vmax;
+        width: 80vmin;
+        height: 70vmax;
+        height: 70vmin;
+        border: black;
+        margin-left: 1vmax;
+        margin-top: 1vmax;
+        border-style: solid;
+        justify-content: center;
+    }
+    .linha1{
+        display: grid;
+        grid-template-rows: repeat(8, 0fr);
+        grid-template-columns: repeat(8, 0fr);
+    }
+    .linha2{
+        display: grid;
+        grid-template-rows: repeat(8, 0fr);
+        grid-template-columns: repeat(8, 0fr);
+    }
+    .quadrados_a {
+       	width: 10vmax;
+        width: 10vmin;
+        height: 10vmax;
+        height: 10vmin;
+        background-color: #FAC895;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+    .quadrados_b {
+        width: 10vmax;
+        width: 10vmin;
+        height: 10vmax;
+        height: 10vmin;
+        background-color:#BF9467;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
